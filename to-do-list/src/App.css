@@ -21,6 +21,7 @@ body {
   color: #fff;
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
+ 
 } 
 
 .TodoWrapper {
@@ -28,12 +29,18 @@ body {
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
+  align-items: center;
+  right: 0;
+  left: 0;
+  bottom: 50;
+  position: absolute;
+  display: flex;
 }
 
 .TodoForm {
   width: 100%;
-  margin-bottom: 1rem;
-
+  margin-bottom: 2rem;
+  align-items: center;
 
 }
 
@@ -46,12 +53,14 @@ body {
   margin-bottom: 2rem;
   width: 300px;
   color: #fff;
-
-
+  position: absolute;
+  left:20;
+  
 }
 
 .todo-input::placeholder {
   color: #ffffff4d;
+  text-align: center;
 }
 
 .todo-btn {
@@ -60,6 +69,11 @@ body {
   border: none;
   padding: 0.55rem;
   cursor: pointer;
+  right: 400px;
+  left: 20;
+  bottom: auto;
+  position: absolute;
+ 
 }
 
 .Todo {
