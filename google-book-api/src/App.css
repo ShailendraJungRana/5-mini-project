@@ -1,3 +1,118 @@
 .App {
   text-align: center;
 }
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family:'Poppins', sans-serif ;
+}
+
+:root{
+  --primaryColor: #1abc9c;
+  --secondary-color:#D4B996FF;
+}
+
+body{
+    background-color: var(--primaryColor);
+}
+
+html{
+  font-size: 76%;
+}
+
+.Header{
+width: 100%;
+height: 500px;
+color: var(--secondary-color);
+box-shadow: 0 5px 10px var(--secondary-color);
+display: flex;
+align-items: center;
+position: relative;
+}
+
+.Header images2{
+  content:"";
+  position: absolute;
+  right: 30;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(rgba(0 0 0 1), rgba(0 0 0 1), url(./images/bg1.jpg));
+  clip-path: cirlce(60% at left 300px);
+  z-index: -1;
+}
+
+.row2{
+  position: absolute;
+  top: 10px;
+  right: 150px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.row2 h2{
+  font-size: 3rem;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.row2 img{
+  margin-top: 30px;
+  width:250px;
+}
+
+.row1 h1{
+  font-size: 2.2rem;
+  text-align: center;
+  margin-left:25px;
+  font-family:'Courier New', Courier, monospace;
+  z-index: -1;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input{
+  outline: 0;
+  border: 0;
+  width: 350px;
+  height: 40px;
+  padding: 0 0.5rem;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 45px;
+  text-align: center;
+}
+
+.search button{
+  outline: 0;
+  border: 0;
+  right: 0rem;
+  width: 45px;
+  position: absolute;
+  border-radius: 45px;
+  height: 40px;
+  padding: 0 0.5rem;
+  font-weight: 400;
+}
+
+.card{
+  background-color: var(--secondary-color);
+  border-radius: 1 rem;
+  padding: 0.5 rem;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 5px rgba( 212, 185, 150, .5);
+  transition: .5s;
+  text-align: center;
+  position: absolute;
+  left: 10px;
+  
+}
+
+
+
+

@@ -1,10 +1,12 @@
-
 import './App.css';
+import Book from './components/Book';
+import Card from './components/Card';
 
 function App() {
   return (
     <div className="App">
-      Google Books API
+      <Book/>
+      <Card/>  
     </div>
   );
 }

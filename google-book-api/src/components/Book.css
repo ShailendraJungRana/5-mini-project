@@ -1,0 +1,7 @@
+.btn{
+    width: 50px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
